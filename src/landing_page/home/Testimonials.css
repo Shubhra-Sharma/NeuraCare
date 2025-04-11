@@ -1,0 +1,154 @@
+/* Container styles */
+.p-5 {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mt-5 {
+    margin-top: 2rem;
+  }
+  
+  .fs-2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: black;
+    text-align: center;
+  }
+  
+  /* Testimonial card styles */
+  .testimonial-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  
+  /* Image styles */
+  .image-container {
+    flex-shrink: 0;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f8f9fa;
+  }
+  
+  /* Text content styles */
+  .text-content {
+    flex-grow: 1;
+    width: 75%;
+  }
+  
+  .author-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .author-info p {
+    margin: 0.25rem 0 1rem;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+  }
+  
+  /* Controls styles */
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+  }
+  
+  .nav-button {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-button:hover {
+    background-color: #68aff6;
+  }
+  
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2px;
+    color: #333;
+  }
+  .arrow{
+    font-size:1.2rem;
+  }
+  /* Dots navigation */
+  .dots {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .dot.active {
+    background-color: #4a90e2;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .testimonial-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .image-container {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    
+    .text-content {
+      width: 100%;
+    }
+  }
+
+  
