@@ -1,7 +1,7 @@
 import React from "react";
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -22,19 +22,17 @@ const Footer = () => {
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">Job Seekers</a></li>
-            <li><a href="#">Partnerships</a></li>
-            <li><a href="#">Webinars</a></li>
+          <li><Link to="/">Home</Link></li>
+      <li><Link to="/SelfCare">Self Care</Link></li>
+      <li><Link to="/Features">Features</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/signup">Sign Up</Link></li>
           </ul>
         </div>
 
         <div className="footer-section contact">
-          <h3>Get In Touch</h3>
+          <h3>Address</h3>
           <p>Indira Gandhi Delhi Technical University for Women, New Delhi, India</p>
-          <p><a href="#">Contact Us</a></p>
         </div>
 
       </div>

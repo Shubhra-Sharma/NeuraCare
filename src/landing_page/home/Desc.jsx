@@ -1,10 +1,10 @@
 import React from "react";
-import"./Features.css";
+import"./Desc.css";
 import testimonials from "./Data";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import Hero from "./Hero";
-const Features=()=>{
+const Desc=()=>{
 return(
     <div>
         <Hero/>
@@ -17,4 +17,4 @@ return(
 );
 }
 
-export default Features;
+export default Desc;

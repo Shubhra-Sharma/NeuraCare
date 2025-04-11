@@ -3,18 +3,19 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
-import Features from './landing_page/home/Features.jsx';
+import Desc from './landing_page/home/Desc.jsx';
 import AboutUs from './landing_page/about/AboutUs.jsx';
 import LearningHub from './landing_page/learning_hub/LearningHub.jsx';
 import SelfCare from './landing_page/selfcare/SelfCare.jsx';
+import Features from './landing_page/features/Features.jsx';
 function App() {
   return (
     <>
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Features />} />
-          <Route path='/LearningHub' element={<LearningHub/>}/>
+          <Route path="/" element={<Desc />} />
+          <Route path='/Features' element={<Features/>}/>
           <Route path='/SelfCare' element={<SelfCare/>}/>
           <Route path="/about" element={<AboutUs />} />
           

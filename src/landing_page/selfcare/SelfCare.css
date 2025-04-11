@@ -1,14 +1,15 @@
 .selfcare-container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 2rem;
+    background-color: #fee9e9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .selfcare-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #4a86e8;;
+    color: #4a86e8;
     text-align: center;
     position: relative;
     display: inline-block;
