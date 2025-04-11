@@ -5,7 +5,6 @@ import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import Desc from './landing_page/home/Desc.jsx';
 import AboutUs from './landing_page/about/AboutUs.jsx';
-import LearningHub from './landing_page/learning_hub/LearningHub.jsx';
 import SelfCare from './landing_page/selfcare/SelfCare.jsx';
 import Features from './landing_page/features/Features.jsx';
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Route path='/Features' element={<Features/>}/>
           <Route path='/SelfCare' element={<SelfCare/>}/>
           <Route path="/about" element={<AboutUs />} />
-          
         </Routes>
       </main>
       <Footer />

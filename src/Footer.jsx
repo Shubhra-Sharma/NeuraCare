@@ -26,7 +26,7 @@ const Footer = () => {
       <li><Link to="/SelfCare">Self Care</Link></li>
       <li><Link to="/Features">Features</Link></li>
         <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/signup">Sign Up</Link></li>
+        <li><Link to="https://ai-health-assistant-neuro.streamlit.app/">Health Assistant</Link></li>
           </ul>
         </div>
 
