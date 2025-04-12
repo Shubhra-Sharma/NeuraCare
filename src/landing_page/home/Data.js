@@ -1,6 +1,6 @@
 import AparnaImage from "./images/Aparna Sharma.jpg";
 import jordanImage from "./images/jordan.jpg";
-import lucyImage from "./images/lucy Wang.jpg";
+import lucyImage from "./images/Lucy Wang.jpg";
 import sarahImage from "./images/Sarah.jpg";
 
 const testimonials = [
