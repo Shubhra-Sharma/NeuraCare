@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUs.css";
-
+import { Link } from "react-router-dom";
 const ContactUs = () => {
   return (
     <div className="contact-container">
@@ -12,9 +12,7 @@ const ContactUs = () => {
 
       </p>
       
-      <a href="#contact-form" className="contact-button">
-        Sign Up
-      </a>
+      <Link to="/Features" className="contact-button">Explore Features</Link>
     </div>
   );
 };

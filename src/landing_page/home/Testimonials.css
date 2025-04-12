@@ -105,14 +105,15 @@
   }
   
   .arrow-icon {
-    width: 20px;
-    height: 20px;
-    stroke-width: 2px;
-    color: #333;
+    font-size: 24px;
+    line-height: 1;
   }
-  .arrow{
-    font-size:1.2rem;
-  }
+  
+  
+    .arrow {
+      color: #100d0d;
+    }
+  
   /* Dots navigation */
   .dots {
     display: flex;

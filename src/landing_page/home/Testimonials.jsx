@@ -45,7 +45,7 @@ const Testimonials = ({testimonials}) => {
   className="nav-button"
   aria-label="Previous testimonial"
 >
-  <p className="arrow">‹</p>
+  <span className="arrow-icon">&#8249;</span>
 </button>
 
         <div className="dots">
@@ -64,7 +64,7 @@ const Testimonials = ({testimonials}) => {
   className="nav-button"
   aria-label="Next testimonial"
 >
-  <p className="arrow">›</p>
+  <span className="arrow-icon">&#8250;</span>
 </button>
       </div>
     </div>

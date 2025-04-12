@@ -8,14 +8,14 @@ const testimonials = [
         name: "Aparna Sharma",
         image: AparnaImage,
         profession: "College Student",
-        text: "The Smart Planner breaks big tasks into smaller ones that actually feel doable.It reminds me just when I need it, with voice prompts and encouraging nudges. I've tried so many apps, but this one truly feels like it gets my brain."
+        text: "The AI Productivity Assistant has completely changed the way I manage my academic workload. The flexible task categorization and clear daily views help me stay focused without feeling overwhelmed. It’s intuitive and respects the way my brain works."
       },
     {  
       id:2,
       image:lucyImage,
       name: "Lucy Wang",
       profession: "Teen",
-      text: "Writing in the mood journal helps me make sense of feelings I usually bottle up. The AI notices triggers I wasn’t even aware of and gives coping tips that work. It’s like having a quiet, judgment-free therapist always on hand"
+      text: "The Mood Journal has been a safe space for me to reflect without judgment. Being able to document my feelings and receive music recommendations based on my mood feels incredibly validating. It’s not just a tool—it’s a quiet companion on tough days."
     },
    
     {
@@ -23,14 +23,14 @@ const testimonials = [
       image: jordanImage,
       name: "Jordan Carter",
       profession: "Freelance Writer",
-      text: "Instead of feeling bad for missing deadlines, the app learns my pace. It adjusts how long tasks take based on how I actually work. It feels supportive—not judgmental—and that makes all the difference."
+      text: "I love how the chatbot acts as a gentle guide, not just offering suggestions but also listening. It creates a sense of safety and support that’s rare in digital tools. It’s clear this platform was built with care and inclusivity in mind."
     },
     { 
       id:4,
       image: sarahImage,
       name: "Sarah",
       profession: "Designer",
-      text: "NeuraCare’s routines and sensory-friendly UI help me stay grounded. The daily planner syncs with how I process time and tasks. It’s not about fixing me—it’s about supporting how I thrive"
+      text: "The workout generator keeps things simple and motivating. I don’t have to overthink or plan—I just get a routine tailored to my energy and needs. It’s helped me stay consistent without burning out."
     },
     
   ];
