@@ -16,7 +16,7 @@ function Features() {
         <div className="features-hero-content">
           <h1 className='title'>Mood Journal App</h1>
           <p>
-          The Mood Journal enables users to document their emotions, thoughts, and daily reflections in a structured and supportive environment. This feature promotes self-awareness and emotional clarity through consistent journaling. Integrated with mood-based analysis, the system also provides personalized music recommendations aligned with the user's emotional state. Whether you're seeking calm, motivation, or emotional release, the Mood Journal offers a holistic approach to mood regulation and self-care.
+          The Mood Journal app enables users to document their emotions, thoughts, and daily reflections in a structured and supportive environment. This feature promotes self-awareness and emotional clarity through consistent journaling. Integrated with mood-based analysis, the system also provides personalized music recommendations aligned with the user's emotional state. Whether you're seeking calm, motivation, or emotional release, the Mood Journal offers a holistic approach to mood regulation and self-care.
           </p>
           <Link to="https://neurosenseapp-production.up.railway.app/" className="feature-cta-button">
           Get Started <FontAwesomeIcon icon={faArrowRight} />

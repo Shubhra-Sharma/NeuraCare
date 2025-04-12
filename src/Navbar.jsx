@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
        <h3 className="logo">
-            <span className="logo-highlight">Neura</span>Care
+            <span className="logo-highlight">Neuro</span>Care
           </h3>
       <ul className="nav-links">
       <li><Link to="/">Home</Link></li>

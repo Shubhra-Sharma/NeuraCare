@@ -9,12 +9,12 @@ const Footer = () => {
 
         <div className="footer-section about">
           <h2 className="logo">
-            <span className="logo-highlight">Neura</span>Care
+            <span className="logo-highlight">Neuro</span>Care
           </h2>
           <p>
-          At NeuraCare, we empower neurodiverse individuals by providing personalized tools and resources for mental wellness, cognitive support, and community connection. Our platform is designed to foster understanding, reduce overwhelm, and promote holistic care tailored to every unique mind. Whether you're seeking support, structure, or simply a safe space, NeuraCare is here to walk with you—every step of the way.          </p>
+          At NeuroCare, we empower neurodiverse individuals by providing personalized tools and resources for mental wellness, cognitive support, and community connection. Our platform is designed to foster understanding, reduce overwhelm, and promote holistic care tailored to every unique mind. Whether you're seeking support, structure, or simply a safe space, NeuroCare is here to walk with you—every step of the way.          </p>
           <div className="footer-icons">
-            <a href="mailto:info@neuracare.com"><FaEnvelope /></a>
+            <a><FaEnvelope /></a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           </div>
         </div>
