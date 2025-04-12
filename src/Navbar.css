@@ -89,7 +89,6 @@
   color: #070202;
 }
 
-/* Only add responsive behavior for tablets and mobile */
 @media screen and (max-width: 992px) {
   .navbar {
     padding: 0rem 2rem;
@@ -104,7 +103,7 @@
 @media screen and (max-width: 768px) {
   .navbar {
     /* padding: 0.5rem 1rem; */
-    width: 100%;
+    max-width: 100%;
   }
   
   .menu-toggle {
@@ -151,7 +150,7 @@
 /* Very small mobile devices */
 @media screen and (max-width: 480px) {
   .navbar {
-    width: 100%;
+    max-width: 100%;
     padding: 0.5rem 1rem;
   }
 }

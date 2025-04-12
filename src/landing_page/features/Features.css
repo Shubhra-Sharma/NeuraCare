@@ -135,7 +135,7 @@
     padding-right: 0;
   }
   
-  @media (max-width: 720px) {
+  @media (max-width: 1000px) {
     .features-container{
       padding-left:0;
     }
