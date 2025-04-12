@@ -5,17 +5,21 @@ import Autism from './Autism.jpg';
 import tourrette from './tourette.jpg';
 import self from './Self.jpg';
 import img from './Dyscalculia.jpg';
+import sense from './sense.jpg';
+import exercise from './exercise.jpg';
 // Sample data for the resources with added link property
 const selfCareResources = [
+ 
   {
     id: 1,
-    title: 'How to Deal with Adult ADHD',
-    author: 'Melinda Smith',
-    date: 'March 13, 2025',
-    description: 'If you have attention deficit hyperactivity disorder (ADHD), previously known as ADD, everything from paying the bills on time to keeping up with work, family, and social demands can seem overwhelming. ADHD can present challenges for adults across all areas of life and can be tough on your health and both your personal and on-the-job relationships. Your symptoms may lead to extreme procrastination, trouble meeting deadlines, and impulsive behavior. In addition, you may feel that friends and family do not understand what you are up against.',
-    image: AdhdImg,
-    link: 'https://www.helpguide.org/mental-health/adhd/managing-adult-adhd'
+    title: 'How To Manage (and Even Overcome) Sensory Overload',
+    author: 'Living Healthy',
+    date: 'July 20, 2023',
+    description: 'Sensory overload can feel overwhelming, especially for individuals with autism, ADHD, or sensory sensitivities. This helpful article from the Cleveland Clinic explores what sensory overload is, how to recognize personal triggers, and practical ways to manage it. From creating calm spaces to using tools like noise-canceling headphones, the article offers gentle yet effective strategies for regaining balance. It encourages readers to listen to their needs and build supportive routines around them. ',
+    image: sense,
+    link: 'https://health.clevelandclinic.org/sensory-overload'
   },
+
   {
     id: 2,
     title: 'Autism spectrum disorder and self-care',
@@ -36,23 +40,42 @@ const selfCareResources = [
   },
   {
     id: 4,
-    title: 'Living with Tourette Syndrome',
-    author: 'Yolanda Smith',
-    date: 'November 26, 2022',
-    description: 'Discover practical tips and lifestyle changes that can help reduce the frequency and severity of tics. This article empowers individuals with Tourette Syndrome to better understand their condition and develop personalized self-care strategies for daily life.',
-    image: tourrette,
-    link: 'https://www.news-medical.net/health/Living-with-Tourette-syndrome.aspx'
-  },
-  
+    title: 'How to Deal with Adult ADHD',
+    author: 'Melinda Smith',
+    date: 'March 13, 2025',
+    description: 'If you have attention deficit hyperactivity disorder (ADHD), previously known as ADD, everything from paying the bills on time to keeping up with work, family, and social demands can seem overwhelming. ADHD can present challenges for adults across all areas of life and can be tough on your health and both your personal and on-the-job relationships. Your symptoms may lead to extreme procrastination, trouble meeting deadlines, and impulsive behavior. In addition, you may feel that friends and family do not understand what you are up against.',
+    image: AdhdImg,
+    link: 'https://www.helpguide.org/mental-health/adhd/managing-adult-adhd'
+  }, 
+
   {
     id: 5,
+    title: 'How to look after your mental health using exercise',
+    author: 'Mental Health Foundation',
+    date: 'May 20, 2022',
+    description: 'This article by the Mental Health Foundation offers a thoughtful guide on how incorporating regular physical activity can improve emotional well-being. It highlights that even simple movements like walking or light stretches can reduce stress, ease anxiety, and boost overall mood. The article is especially supportive for those who may feel overwhelmed, encouraging small, manageable steps toward a healthier routine. With practical tips and a compassionate tone, it emphasizes how consistent, gentle exercise can help build resilience and promote a more balanced mental state over time.',
+    image: exercise,
+    link: 'https://www.mentalhealth.org.uk/explore-mental-health/publications/how-look-after-your-mental-health-using-exercise'
+  },
+  {
+    id: 6,
     title: 'Managing Dyscalculia',
     author: 'Brain Balance',
     date: 'August 23, 2022',
     description: 'This article from Brain Balance introduces simple, research-informed techniques to help individuals with dyscalculia better navigate everyday math challenges. From using multisensory learning tools to applying real-world problem-solving methods, the strategies are designed to build confidence, reduce stress, and foster independence. A supportive read for students, parents, and anyone seeking to turn frustration into progress.',
     image: img,
     link: 'https://www.brainbalancecenters.com/blog/strategies-for-managing-dyscalculia'
+  },
+  {
+    id: 7,
+    title: 'Living with Tourette Syndrome',
+    author: 'Yolanda Smith',
+    date: 'November 26, 2022',
+    description: 'Discover practical tips and lifestyle changes that can help reduce the frequency and severity of tics. This article empowers individuals with Tourette Syndrome to better understand their condition and develop personalized self-care strategies for daily life.',
+    image: tourrette,
+    link: 'https://www.news-medical.net/health/Living-with-Tourette-syndrome.aspx'
   }
+
 ];
 
 const SelfCare = () => {

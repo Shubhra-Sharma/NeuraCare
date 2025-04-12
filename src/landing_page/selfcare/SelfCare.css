@@ -54,6 +54,8 @@
   .resource-list {
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
     gap: 2rem;
   }
   
