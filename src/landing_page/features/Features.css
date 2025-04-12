@@ -136,19 +136,29 @@
   }
   
   @media (max-width: 720px) {
+    .features-container{
+      padding-left:0;
+    }
     .features-hero,
     .productivity-section {
       flex-direction: column;
-      padding: 40px;
+      /* padding: 40px; */
+      box-shadow: none;
     }
-  
+    .features-hero-image img {
+       box-shadow: none;
+    }
     .features-hero-content,
     .productivity-section .features-hero-content {
-      padding-right: 0;
-      padding-left: 0;
+      padding-right: 1rem;
+      padding-left: 1rem;
       margin-bottom: 30px;
+      font-size:0.9rem;
+      text-align: justify;
     }
-  
+    .features-hero-content h1{
+      font-size:1.5rem;
+    }
     .features-cards-container {
       flex-direction: column;
     }

@@ -17,7 +17,7 @@ const Testimonials = ({testimonials}) => {
   }
 
   return (
-    <div className='p-5 mt-5'>
+    <div className='p-5'>
       <h2 className="fs-2">Why users love NeuroCare</h2>
 
       <div className="testimonial-card">
