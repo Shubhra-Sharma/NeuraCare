@@ -42,6 +42,7 @@ function Navbar() {
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
         <li><Link to="/SelfCare" onClick={() => setMenuOpen(false)}>Self Care</Link></li>
         <li><Link to="/Features" onClick={() => setMenuOpen(false)}>Features</Link></li>
+        <li><Link to="https://dyslexiafriendlyreader-sbwe.streamlit.app/" onClick={() => setMenuOpen(false)}>Dyslexia Reader</Link></li>
         <li><Link to="https://ai-health-assistant-neuro.streamlit.app/" onClick={() => setMenuOpen(false)}>Health Assistant</Link></li>
         <li><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
       </ul>
