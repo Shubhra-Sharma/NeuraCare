@@ -7,6 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import img from './features.jpg';
 import prod from './productivity.jpg';
 import workout from './workout.jpg';
+import hospital from './hospital.jpg';
 
 function Features() {
   return (
@@ -58,6 +59,26 @@ function Features() {
           <img src={workout} alt="Person exercising" />
         </div>
       </div>
+
+ 
+
+      {/* Hospital Locator - Special layout with proper styling */}
+      <div className="features-hero productivity-section">
+        <div className="features-hero-image">
+          <img src={hospital} alt="Nearby Hospital Locator" />
+        </div>
+        <div className="features-hero-content">
+          <h1 className='title'>Nearby Hospital Locator</h1>
+          <p>
+          The Nearby Hospital Locator is an intuitive feature that helps users quickly find medical assistance in their vicinity. By simply entering their current latitude and longitude along with the desired number of hospitals, users receive a curated list of the closest healthcare facilities. Each result includes essential details such as the hospital’s name, distance, and location, making it easier to choose the most convenient option. To enhance clarity and navigation, an interactive map is integrated into the interface, visually marking all the nearby hospitals. This minimalistic design ensures ease of use and reduces cognitive load, making it ideal for quick decision-making in urgent situations.      
+          </p>
+          <Link to="https://neurocare-searcher.streamlit.app/" className="feature-cta-button">
+          Get Started <FontAwesomeIcon icon={faArrowRight} />
+          </Link>
+        </div>
+      </div>
+
+
     </div>
   );
 }
